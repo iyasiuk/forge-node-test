@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 require("dotenv").config();
 
-app.get("/", (req, res) => res.send("Hello World!"));
+app.get("/", (req, res) => res.send("Hello happy World!"));
 app.get("/env", (req, res) =>
   res.send(`The message of the day is: ${process.env.SECRET_MESSAGE}`)
 );
