@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-require("dotenv").config();
+require("dotenv").config({ path: `/home/forge/forgenode/.env` });
 
 app.get("/", (req, res) => res.send("Hello happy World!"));
 app.get("/env", (req, res) =>
