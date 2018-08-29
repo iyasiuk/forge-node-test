@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/forge/forgenode
+cd /home/forge/node-on-forge
 node index.js
