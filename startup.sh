@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/forge/node-on-forge
+cd /home/forge/www.nest-express-ilya88.com/
 node index.js
